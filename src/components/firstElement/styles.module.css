@@ -1,0 +1,49 @@
+.main{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    /* margin-left: -100px; */
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.left{
+    margin-left: 100px;
+    margin-top: 170px;
+}
+
+.left h5 {
+    color: red;
+    margin-bottom: 20px;  /* Add vertical space below the h5 */
+    font-size: 100%;
+}
+
+.left h1 {
+    /* font-size: x-large; */
+    margin-bottom: 20px;  /* Add vertical space below the h1 */
+font-family:'Times New Roman', Times, serif;
+
+}
+
+.left p {
+    margin-bottom: 20px;  /* Add vertical space below the paragraph */
+    color: rgb(205, 208, 212);
+}
+
+.left button {
+    padding: 10px 20px;  /* Optional: Add padding to make the button larger */
+    font-size: 16px;     /* Optional: Increase font size of the button text */
+    background-color: #0056b3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.right{
+width: 60%;
+}
+

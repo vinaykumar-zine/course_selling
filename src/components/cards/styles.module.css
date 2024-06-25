@@ -1,0 +1,71 @@
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.card {
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    height: 430px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mode {
+    display: flex;
+    margin-left: -80px;
+}
+
+.mode .online,
+.offline,
+.month {
+    border: 1px solid rgb(0, 102, 255);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.mode .online p,
+.offline p,
+.month p {
+    margin: 4px;
+    color: blue;
+}
+
+.card button {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: red;
+}
+
+.card:nth-child(3) {
+    margin-left: 200px;
+
+}
+
+.card:nth-child(1) {
+    margin-left: 100px;
+}
+
+.card:nth-child(2) {
+    margin-right: 100px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}

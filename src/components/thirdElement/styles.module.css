@@ -1,0 +1,59 @@
+.main{
+    width: 100hw;
+    height: 70vh;
+}
+
+.main .subMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main .subMain .left{
+    margin-left: 300px;
+}
+
+.main .subMain .left img{
+    height:500px;
+}
+
+.main .subMain .right{
+    background-color: blue;
+    width: 35%;
+    height: 350px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.main .subMain .right .subRight{display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    margin-right: -10px;
+    color: white;
+}
+
+.subRight button{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.subRight h1, p {
+    margin-bottom: 20px;
+}
+
+.subRight h1{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.subRight p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

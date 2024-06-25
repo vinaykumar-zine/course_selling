@@ -1,0 +1,10 @@
+.parent{
+    width: 100hw;
+    height: 35vh;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    font-size: xx-large;
+}

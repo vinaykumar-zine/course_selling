@@ -1,0 +1,81 @@
+.area{
+    background: rgb(0, 0, 0);
+    width: 100vw;  
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.area .quote{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+.area .card{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 60%;
+    align-items: center;
+}
+
+.area .innerCard{
+    margin: 20px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.area .innerCard:nth-child(1){
+    background: blue;
+    color: aliceblue;
+}
+
+.area .innerCard:nth-child(2){
+    background: red;
+    color: aliceblue;
+}
+
+.area .innerCard:nth-child(3){
+    background: white;
+    color: blue;
+}
+
+.area .card .cardOne{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.area .card .cardTwo{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.area .card .cardThree{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.card h1{
+    margin-bottom: 10px;
+}

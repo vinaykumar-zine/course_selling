@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left  .leftChild{
+    flex: 1;
+    padding: 20px;
+     margin-right: 80px;
+    
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.right {
+    width: 50%;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+}
+
+form button{
+    height: 40px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
